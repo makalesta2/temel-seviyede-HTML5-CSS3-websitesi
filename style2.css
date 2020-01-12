@@ -1,0 +1,115 @@
+.Border{
+	border:2px solid blue;
+}
+
+/*h2{
+	text-align: center;
+	letter-spacing: 1.5px; harfler arasında 2px boşluk bırakır 
+}
+*/
+
+.page-top {
+	background-color: darkkhaki;
+	padding:10px;
+	text-align:center;
+	color:#2E2B2B;
+}
+
+.page-left {
+	background-color: darkred;
+	padding:10px;
+	text-align: justify;
+	color:#FFF;
+	width: 75%;
+	height: 500px;
+	float:left;
+}
+
+.page-right {
+	background-color: black;
+	padding:10px;
+	text-align: justify;
+	color:#FFF;
+	width: 22%;
+	height: 500px;
+	float: right;
+}
+
+body {
+	margin:0;
+}
+
+.page-left .content{
+	padding: 10px;
+	
+}
+.page-left header {
+	color: burlywood;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+
+.page-bottom {
+	background-color: darkolivegreen;
+	padding: 15px;
+	height: 40px;
+	clear: left;
+	text-align: center;
+	color: white;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaca, "Courier New", "monospace"
+}
+
+
+.page-right li{
+	list-style-type: none;
+	padding: 7px;
+}
+
+.page-right a{
+	color:white;
+	text-decoration: none; /* altçigiyi kaldırıyor */
+}
+
+.page-right a:hover{  /* imleçle üstüne gelince renk değiştirir. */
+	color:red;
+	text-decoration: none; /* altçigiyi kaldırıyor */
+}
+
+aside h2 {
+	text-align: center;
+}
+
+.page-top img{
+	float:left;
+	clear: left;
+}
+
+nav.menu ul{
+	background-color: #531A1B;
+	margin:0; /*boşluğu yok eder. */
+	padding: 15px;
+}
+
+.menu ul li {
+	list-style-type: none; /* noktaları kaldırır. */
+	display: inline; /*menuyü yan yana yazar */
+	padding-right: 25px;
+}
+
+.menu a{
+	color: antiquewhite;
+	text-decoration: none; /*altçizgiyi kaldırır*/
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+	padding: 15px;
+}
+.menu a:hover{
+	background-color: #7D2729;
+	
+}
+
+hgroup *{
+	border-bottom: 1px solid #333;
+	color: darkgreen;
+	
+}
